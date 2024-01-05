@@ -10,19 +10,13 @@ for ((a=0; a<10; a++))
                 for ((e=0; e<10; e++))
                     do mkdir $a/$b/$c/$d/$e
                     for ((f=0; f<10; f++))
-                        do mkdir $a/$b/$c/$d/$e/$f
-                        for ((g=0; g<10; g++))
-                            do mkdir $a/$b/$c/$d/$e/$f/$g
-                            for ((h=0; h<10; h++))
-                                do cp base $a/$b/$c/$d/$e/$f/$g/$h
-                                echo $a$b$c$d$e$f$g$h >> $a/$b/$c/$d/$e/$f/$g/$h
-                                echo $a$b$c$d$e$f$g$h
-                                done
-                            done
-                        done
+                        do cp base $a/$b/$c/$d/$e/$fo
+                        echo $a$b$c$d$e$f >>   $a/$b/$c/$d/$e/$f
+                        echo $a$b$c$d$e$f
                     done
                 done
             done
         done
     done
 done
+
