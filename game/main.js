@@ -8,7 +8,7 @@ function naviguer() {
     var etape6 = document.getElementById('etape6').value;
 
     // Construire l'URL en fonction des valeurs des étapes
-    var url = 'http://pastju.com/game/'+etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4 + '/' + etape5 + '/' + etape6 + '/' + etape7 + '/' + etape8;
+    var url = 'http://pastju.com/game/'+etape1 + '/' + etape2 + '/' + etape3 + '/' + etape4 + '/' + etape5 + '/' + etape6 ;
     window.location.href = url;
     console.log('Vous accedez à la page : ' + url);
 }
