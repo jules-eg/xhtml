@@ -10,7 +10,7 @@ for ((a=0; a<10; a++))
                 for ((e=0; e<10; e++))
                     do mkdir $a/$b/$c/$d/$e
                     for ((f=0; f<10; f++))
-                        do cp base $a/$b/$c/$d/$e/$fo
+                        do cp base $a/$b/$c/$d/$e/$f
                         echo $a$b$c$d$e$f >>   $a/$b/$c/$d/$e/$f
                         echo $a$b$c$d$e$f
                     done
